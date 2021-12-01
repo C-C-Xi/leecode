@@ -16,9 +16,11 @@ public class TwentyFour {
             int a=arr[i];
             if(a==target){count++;continue;
             }
-            if(a>arr[i])continue;
-            if(a<arr[i]){
-                arr[i]<
+            if(a>target)continue;
+            if(a<target){
+                for (int j = i; j <arr.length ; j++) {
+
+                }
             }
         }
         return count;
